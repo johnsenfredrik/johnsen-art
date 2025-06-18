@@ -4,7 +4,7 @@
       <header class="flex items-center">
         <NuxtImg src="/img/ja-big.png" sizes="80px sm:100px md:120px" />
         <div class="grow text-right pr-10">
-          <div class="font-thin text-2xl">Johnsen Art</div>
+          <div class="font-thin text-4xl">Johnsen Art</div>
           <div class="font-thin text-2xl">Dikt & Malerier</div>
         </div>
       </header>
@@ -22,4 +22,12 @@ export default {
     };
   },
 };
+  useSeoMeta({
+  title: 'Johnsen Art',
+  ogTitle: 'Johnsen Art',
+  description: 'Dikt og malerier for enhver smak',
+  ogDescription: 'Dikt og malerier for enhver smak',
+  ogImage: 'https://johnsen.art/img/solnedgang.jpg',
+  twitterCard: 'summary_large_image',
+  })
 </script>
