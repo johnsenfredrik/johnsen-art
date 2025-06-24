@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       meta: [{ name: 'apple-mobile-web-app-title', content: 'Johnsen Art' }],
     },
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image', "@nuxtjs/seo"],
 
   devtools: { enabled: true },
 });
